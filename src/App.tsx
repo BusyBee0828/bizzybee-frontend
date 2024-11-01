@@ -3,7 +3,9 @@ import { Text } from "@chakra-ui/react";
 
 function App() {
   return <div>
-    <Text>It works!</Text>
+    <Text 
+    color={"red.500"}
+    fontSize={"6xl"}>It works!</Text>
   </div>;
   
 }
